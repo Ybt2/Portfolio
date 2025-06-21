@@ -116,6 +116,21 @@ export default function Home() {
             </div>
           </div>
         </section>
+        {/* CERTIFICADOS */}
+        <section id="certificates" className="w-full max-w-7xl mx-auto py-12">
+          <h3 className="text-2xl font-bold mb-8 text-left">Certificados</h3>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+            {/* Exemplo de certificado */}
+            <div className="flex flex-col items-start bg-gradient-to-br from-neutral-800/90 to-neutral-900/80 rounded-xl shadow border border-neutral-700/60 p-4 gap-3 h-full hover:scale-[1.01] transition-transform overflow-hidden">
+              <h4 className="text-lg font-semibold mb-1 text-left">Certificado Profissional de Automação da TI do Google com Python</h4>
+              <div className="flex gap-2 flex-wrap mt-auto">
+                <a href="https://www.coursera.org/learn/python-crash-course" target="_blank" rel="noopener" className="px-3 py-1 rounded-full bg-blue-600 hover:bg-blue-700 text-white text-xs font-semibold transition">Ver curso</a>
+                <a href="/certificados/certificado.pdf" target="_blank" rel="noopener" className="px-3 py-1 rounded-full bg-neutral-700 hover:bg-neutral-800 text-white text-xs font-semibold transition">Ver certificado</a>
+              </div>
+            </div>
+            {/* Adicione mais certificados duplicando o bloco acima */}
+          </div>
+        </section>
         {/* OUTRAS SEÇÕES */}
         <section id="projects" className="w-full max-w-7xl mx-auto py-20">
           <h3 className="text-2xl font-bold mb-10 text-left">
