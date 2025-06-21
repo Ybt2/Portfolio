@@ -41,7 +41,7 @@ export default function Home() {
       </header>
       <main className="flex flex-col min-h-screen items-center justify-center bg-gradient-to-br from-[#0f172a] via-[#1e293b] to-[#0a0a0a] text-white px-4 pt-32 scroll-smooth">
         {/* HERO SECTION */}
-        <section className="flex flex-col md:flex-row items-stretch justify-between gap-10 py-24 w-full max-w-7xl text-center md:text-left">
+        <section className="flex flex-col md:flex-row items-stretch justify-between gap-10 py-5 sm:py-24 w-full max-w-7xl text-center md:text-left">
           {/* Informações à esquerda */}
           <div className="flex-1 flex flex-col gap-6 items-center md:items-start justify-center">
             <h1 className="text-5xl sm:text-6xl font-extrabold tracking-tight leading-tight bg-gradient-to-r from-blue-400 via-cyan-400 to-purple-500 bg-clip-text text-transparent drop-shadow-lg">
