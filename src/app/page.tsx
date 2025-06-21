@@ -51,7 +51,7 @@ export default function Home() {
               Estudante da Oficina - Escola Profissional
             </h2>
             <p className="text-neutral-400 max-w-xl text-base sm:text-lg leading-relaxed">
-              Atualmente interessado por backend e inteligência artificial.
+              Atualmente interessado por backend e inteligência artificial.Add commentMore actions
               Tenho desenvolvido pequenos projetos para aprender mais sobre servidores, APIs, e redes neurais.
             </p>
             <div className="flex gap-4 mt-2">
@@ -219,37 +219,37 @@ export default function Home() {
           <h3 className="text-2xl font-bold mb-10 text-left">Tech Stack</h3>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-8 justify-items-center">
             {/* Python */}
-            <a href="https://www.python.org/" target="_blank" rel="noopener" className="group flex flex-col items-center p-5 bg-neutral-800 rounded-xl shadow hover:scale-105 hover:bg-neutral-700 transition-all duration-200 w-36 h-36">
+            <a href="https://www.python.org/" target="_blank" rel="noopener" className="group flex flex-col items-center p-5 bg-neutral-800 rounded-xl shadow border border-neutral-700 hover:scale-105 hover:bg-neutral-700 transition-all duration-200 w-32 h-32">
               <img src="/tech/python.svg" alt="Python" className="w-12 h-12 mb-2 group-hover:brightness-125 transition" />
               <span className="text-base font-medium text-neutral-200 group-hover:text-white">Python</span>
             </a>
             {/* HTML */}
-            <a href="https://developer.mozilla.org/docs/Web/HTML" target="_blank" rel="noopener" className="group flex flex-col items-center p-5 bg-neutral-800 rounded-xl shadow hover:scale-105 hover:bg-neutral-700 transition-all duration-200 w-36 h-36">
+            <a href="https://developer.mozilla.org/docs/Web/HTML" target="_blank" rel="noopener" className="group flex flex-col items-center p-5 bg-neutral-800 rounded-xl shadow border border-neutral-700 hover:scale-105 hover:bg-neutral-700 transition-all duration-200 w-32 h-32">
               <img src="/tech/html.svg" alt="HTML5" className="w-12 h-12 mb-2 group-hover:brightness-125 transition" />
               <span className="text-base font-medium text-neutral-200 group-hover:text-white">HTML5</span>
             </a>
             {/* CSS */}
-            <a href="https://developer.mozilla.org/docs/Web/CSS" target="_blank" rel="noopener" className="group flex flex-col items-center p-5 bg-neutral-800 rounded-xl shadow hover:scale-105 hover:bg-neutral-700 transition-all duration-200 w-36 h-36">
+            <a href="https://developer.mozilla.org/docs/Web/CSS" target="_blank" rel="noopener" className="group flex flex-col items-center p-5 bg-neutral-800 rounded-xl shadow border border-neutral-700 hover:scale-105 hover:bg-neutral-700 transition-all duration-200 w-32 h-32">
               <img src="/tech/css.svg" alt="CSS3" className="w-12 h-12 mb-2 group-hover:brightness-125 transition" />
               <span className="text-base font-medium text-neutral-200 group-hover:text-white">CSS3</span>
             </a>
             {/* JavaScript */}
-            <a href="https://developer.mozilla.org/docs/Web/JavaScript" target="_blank" rel="noopener" className="group flex flex-col items-center p-5 bg-neutral-800 rounded-xl shadow hover:scale-105 hover:bg-neutral-700 transition-all duration-200 w-36 h-36">
+            <a href="https://developer.mozilla.org/docs/Web/JavaScript" target="_blank" rel="noopener" className="group flex flex-col items-center p-5 bg-neutral-800 rounded-xl shadow border border-neutral-700 hover:scale-105 hover:bg-neutral-700 transition-all duration-200 w-32 h-32">
               <img src="/tech/javascript.svg" alt="JavaScript" className="w-12 h-12 mb-2 group-hover:brightness-125 transition" />
               <span className="text-base font-medium text-neutral-200 group-hover:text-white">JavaScript</span>
             </a>
             {/* C++ */}
-            <a href="https://isocpp.org/" target="_blank" rel="noopener" className="group flex flex-col items-center p-5 bg-neutral-800 rounded-xl shadow hover:scale-105 hover:bg-neutral-700 transition-all duration-200 w-36 h-36">
+            <a href="https://isocpp.org/" target="_blank" rel="noopener" className="group flex flex-col items-center p-5 bg-neutral-800 rounded-xl shadow border border-neutral-700 hover:scale-105 hover:bg-neutral-700 transition-all duration-200 w-32 h-32">
               <img src="/tech/cpp.svg" alt="C++" className="w-12 h-12 mb-2 group-hover:brightness-125 transition" />
               <span className="text-base font-medium text-neutral-200 group-hover:text-white">C++</span>
             </a>
             {/* SQL */}
-            <a href="https://www.w3schools.com/sql/sql_intro.asp" target="_blank" rel="noopener" className="group flex flex-col items-center p-5 bg-neutral-800 rounded-xl shadow hover:scale-105 hover:bg-neutral-700 transition-all duration-200 w-36 h-36">
+            <a href="https://www.w3schools.com/sql/sql_intro.asp" target="_blank" rel="noopener" className="group flex flex-col items-center p-5 bg-neutral-800 rounded-xl shadow border border-neutral-700 hover:scale-105 hover:bg-neutral-700 transition-all duration-200 w-32 h-32">
               <img src="/tech/sql.svg" alt="SQL" className="w-12 h-12 mb-2 group-hover:brightness-125 transition" />
               <span className="text-base font-medium text-neutral-200 group-hover:text-white">SQL</span>
             </a>
             {/* PHP */}
-            <a href="https://www.php.net/" target="_blank" rel="noopener" className="group flex flex-col items-center p-5 bg-neutral-800 rounded-xl shadow hover:scale-105 hover:bg-neutral-700 transition-all duration-200 w-36 h-36">
+            <a href="https://www.php.net/" target="_blank" rel="noopener" className="group flex flex-col items-center p-5 bg-neutral-800 rounded-xl shadow border border-neutral-700 hover:scale-105 hover:bg-neutral-700 transition-all duration-200 w-32 h-32">
               <img src="/tech/php.svg" alt="PHP" className="w-12 h-12 mb-2 group-hover:brightness-125 transition" />
               <span className="text-base font-medium text-neutral-200 group-hover:text-white">PHP</span>
             </a>
