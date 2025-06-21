@@ -51,7 +51,6 @@ export default function Home() {
               Estudante da Oficina - Escola Profissional
             </h2>
             <p className="text-neutral-400 max-w-xl text-base sm:text-lg leading-relaxed">
-              <br />
               Atualmente interessado por backend e inteligência artificial.
               Tenho desenvolvido pequenos projetos para aprender mais sobre servidores, APIs, e redes neurais.
             </p>
