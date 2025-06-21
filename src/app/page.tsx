@@ -192,6 +192,27 @@ export default function Home() {
                 </div>
               </div>
             </div>   
+            {/* Projeto 4 */}
+            <div className="flex flex-col md:flex-row bg-gradient-to-br from-neutral-800/90 to-neutral-900/80 rounded-2xl shadow-xl border border-neutral-700/60 hover:scale-[1.01] transition-transform overflow-hidden">
+              <div className="md:w-2/5 w-full aspect-video md:aspect-auto bg-black flex items-center justify-center">
+                <video controls poster="/thumb-portfolio-next.jpg" className="w-full h-full object-cover">
+                  <source src="/portfolio_next_demo.mp4" type="video/mp4" />
+                  Seu navegador não suporta vídeo.
+                </video>
+              </div>
+              <div className="flex-1 flex flex-col gap-3 p-6 justify-center">
+                <h4 className="text-xl font-semibold mb-1 text-left">Vinted scapper no Telegram</h4>
+                <p className="text-neutral-400 text-base">Um BOT para o Telegram feito em python que faz um scrapping no site na vinted e retorna os resultados da pesquisa toda, dando ao Admin do bot total controle sobre quem o pode usar, quem usou e a que horas e se deve estar ligado ou desligado</p>
+                <div className="flex flex-wrap gap-2 mt-1">
+                  <span className="bg-cyan-900/40 text-cyan-300 px-2 py-0.5 rounded text-xs font-mono">#telegram</span>
+                  <span className="bg-blue-900/40 text-blue-300 px-2 py-0.5 rounded text-xs font-mono">#python</span>
+                </div>
+                <div className="flex gap-3 mt-4 flex-wrap">
+                  <a href="https://github.com/Ybt2/telegram_vinted_scrapper" target="_blank" rel="noopener" className="px-4 py-1.5 rounded-full bg-purple-700 hover:bg-purple-900 text-white text-sm font-semibold transition">Ver no Github</a>
+                  <a href="/telegram.zip" download className="px-4 py-1.5 rounded-full bg-neutral-700 hover:bg-neutral-800 text-white text-sm font-semibold transition">Download código</a>
+                </div>
+              </div>
+            </div>   
           </div>
         </section>
         <section id="techstack" className="w-full max-w-7xl mx-auto py-20">
