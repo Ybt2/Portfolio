@@ -51,8 +51,10 @@ export default function Home() {
               Estudante da Oficina - Escola Profissional
             </h2>
             <p className="text-neutral-400 max-w-xl text-base sm:text-lg leading-relaxed">
-              Atualmente interessado por backend e inteligência artificial.
-              Tenho desenvolvido pequenos projetos para aprender mais sobre servidores, APIs, e redes neurais.
+              Transformando ideias em experiências digitais modernas, rápidas e
+              responsivas.
+              <br />
+              Especialista em React, Next.js e design de interfaces.
             </p>
             <div className="flex gap-4 mt-2">
               <a
@@ -139,7 +141,8 @@ export default function Home() {
                   <span className="bg-purple-900/40 text-purple-300 px-2 py-0.5 rounded text-xs font-mono">#AI</span>
                 </div>
                 <div className="flex gap-3 mt-4 flex-wrap">
-                  <a href="https://github.com/Ybt2/number_recognition" target="_blank" rel="noopener" className="px-4 py-1.5 rounded-full bg-blue-600 hover:bg-blue-700 text-white text-sm font-semibold transition">Ver no Github</a>
+                  <a href="https://github.com/Ybt2/number_recognition" target="_blank" rel="noopener" className="px-4 py-1.5 rounded-full bg-purple-700 hover:bg-purple-900 text-white text-sm font-semibold transition">Ver no Github</a>
+                  <a href="/oficinastudy.zip" download className="px-4 py-1.5 rounded-full bg-neutral-700 hover:bg-neutral-800 text-white text-sm font-semibold transition">Download código</a>
                 </div>
               </div>
             </div>
@@ -162,7 +165,10 @@ export default function Home() {
                 </div>
                 <div className="flex gap-3 mt-4 flex-wrap">
                   <a href="https://oficinastudy.pt" target="_blank" rel="noopener" className="px-4 py-1.5 rounded-full bg-blue-600 hover:bg-blue-700 text-white text-sm font-semibold transition">Abrir site</a>
+                  <a href="https://github.com/franciscom06/oficinastudy" target="_blank" rel="noopener" className="px-4 py-1.5 rounded-full bg-purple-700 hover:bg-purple-800 text-white text-sm font-semibold transition">Ver no Github</a>
+                  <a href="/oficinastudy.zip" download className="px-4 py-1.5 rounded-full bg-neutral-700 hover:bg-neutral-800 text-white text-sm font-semibold transition">Download código</a>
                 </div>
+                
               </div>
             </div>   
             {/* Projeto 3 */}
@@ -183,6 +189,7 @@ export default function Home() {
                 </div>
                 <div className="flex gap-3 mt-4 flex-wrap">
                   <a href="https://neon-baklava-703798.netlify.app/" target="_blank" rel="noopener" className="px-4 py-1.5 rounded-full bg-blue-600 hover:bg-blue-700 text-white text-sm font-semibold transition">Abrir site</a>
+                  <a href="https://github.com/Ybt2/EcoQuiz" target="_blank" rel="noopener" className="px-4 py-1.5 rounded-full bg-purple-700 hover:bg-purple-900 text-white text-sm font-semibold transition">Ver no Github</a>
                   <a href="/EcoQuiz.zip" download className="px-4 py-1.5 rounded-full bg-neutral-700 hover:bg-neutral-800 text-white text-sm font-semibold transition">Download código</a>
                 </div>
               </div>
@@ -218,7 +225,7 @@ export default function Home() {
               <span className="text-base font-medium text-neutral-200 group-hover:text-white">C++</span>
             </a>
             {/* SQL */}
-            <a href="https://www.mysql.com/" target="_blank" rel="noopener" className="group flex flex-col items-center p-5 bg-neutral-800 rounded-xl shadow hover:scale-105 hover:bg-neutral-700 transition-all duration-200 w-36 h-36">
+            <a href="https://www.w3schools.com/sql/sql_intro.asp" target="_blank" rel="noopener" className="group flex flex-col items-center p-5 bg-neutral-800 rounded-xl shadow hover:scale-105 hover:bg-neutral-700 transition-all duration-200 w-36 h-36">
               <img src="/tech/sql.svg" alt="SQL" className="w-12 h-12 mb-2 group-hover:brightness-125 transition" />
               <span className="text-base font-medium text-neutral-200 group-hover:text-white">SQL</span>
             </a>
