@@ -140,7 +140,7 @@ export default function Home() {
                 </div>
                 <div className="flex gap-3 mt-4 flex-wrap">
                   <a href="https://github.com/Ybt2/number_recognition" target="_blank" rel="noopener" className="px-4 py-1.5 rounded-full bg-purple-700 hover:bg-purple-900 text-white text-sm font-semibold transition">Ver no Github</a>
-                  <a href="/oficinastudy.zip" download className="px-4 py-1.5 rounded-full bg-neutral-700 hover:bg-neutral-800 text-white text-sm font-semibold transition">Download código</a>
+                  <a href="/number_recognition.zip" download className="px-4 py-1.5 rounded-full bg-neutral-700 hover:bg-neutral-800 text-white text-sm font-semibold transition">Download código</a>
                 </div>
               </div>
             </div>
