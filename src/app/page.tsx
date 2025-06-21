@@ -51,10 +51,8 @@ export default function Home() {
               Estudante da Oficina - Escola Profissional
             </h2>
             <p className="text-neutral-400 max-w-xl text-base sm:text-lg leading-relaxed">
-              Transformando ideias em experiências digitais modernas, rápidas e
-              responsivas.
-              <br />
-              Especialista em React, Next.js e design de interfaces.
+              Atualmente interessado por backend e inteligência artificial.Add commentMore actions
+              Tenho desenvolvido pequenos projetos para aprender mais sobre servidores, APIs, e redes neurais.
             </p>
             <div className="flex gap-4 mt-2">
               <a
