@@ -21,3 +21,8 @@ Este repositório serve como portfólio pessoal onde partilho:
 ```yaml
 - Frontend: React, Next.js, Tailwind CSS
 - Deploy: Vercel
+```
+
+## 📞 Contactos
+- ✉️ Email: [fredericogouveia21@gmail.com](mailto:fredericogouveia21@gmail.com)
+- 💼 LinkedIn: [www.linkedin.com/in/frederico-gouveia-62b67632b](www.linkedin.com/in/frederico-gouveia-62b67632b)
