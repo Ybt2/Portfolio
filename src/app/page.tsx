@@ -140,7 +140,7 @@ export default function Home() {
             {/* Projeto 1 */}
             <div className="flex flex-col md:flex-row bg-gradient-to-br from-neutral-800/90 to-neutral-900/80 rounded-2xl shadow-xl border border-neutral-700/60 hover:scale-[1.01] transition-transform overflow-hidden">
               <div className="md:w-2/5 w-full aspect-video md:aspect-auto bg-black flex items-center justify-center">
-                <video controls poster="/thumb-portfolio.jpg" className="w-full h-full object-cover">
+                <video controls poster="/thumb-portfolio.jpg" className="w-full h-full object-cover max-h-75">
                   <source src="/number_video.mp4" type="video/mp4" />
                   Seu navegador não suporta vídeo.
                 </video>
@@ -162,7 +162,7 @@ export default function Home() {
             {/* Projeto 2 */}
             <div className="flex flex-col md:flex-row bg-gradient-to-br from-neutral-800/90 to-neutral-900/80 rounded-2xl shadow-xl border border-neutral-700/60 hover:scale-[1.01] transition-transform overflow-hidden">
               <div className="md:w-2/5 w-full aspect-video md:aspect-auto bg-black flex items-center justify-center">
-                <video controls poster="/thumb-oficina-study.jpg" className="w-full h-full object-cover">
+                <video controls poster="/thumb-oficina-study.jpg" className="w-full h-full object-cover max-h-75">
                   <source src="/pitch_oficina_study.mp4" type="video/mp4" />
                   Seu navegador não suporta vídeo.
                 </video>
@@ -187,7 +187,7 @@ export default function Home() {
             {/* Projeto 3 */}
             <div className="flex flex-col md:flex-row bg-gradient-to-br from-neutral-800/90 to-neutral-900/80 rounded-2xl shadow-xl border border-neutral-700/60 hover:scale-[1.01] transition-transform overflow-hidden">
               <div className="md:w-2/5 w-full aspect-video md:aspect-auto bg-black flex items-center justify-center">
-                <video controls poster="/thumb-chatbot.jpg" className="w-full h-full object-cover">
+                <video controls poster="/thumb-chatbot.jpg" className="w-full h-full object-cover max-h-75">
                   <source src="/EcoQuiz.mp4" type="video/mp4" />
                   Seu navegador não suporta vídeo.
                 </video>
@@ -210,8 +210,8 @@ export default function Home() {
             {/* Projeto 4 */}
             <div className="flex flex-col md:flex-row bg-gradient-to-br from-neutral-800/90 to-neutral-900/80 rounded-2xl shadow-xl border border-neutral-700/60 hover:scale-[1.01] transition-transform overflow-hidden">
               <div className="md:w-2/5 w-full aspect-video md:aspect-auto bg-black flex items-center justify-center">
-                <video controls poster="/thumb-portfolio-next.jpg" className="w-full h-full object-cover">
-                  <source src="/portfolio_next_demo.mp4" type="video/mp4" />
+                <video controls poster="/thumb-portfolio-next.jpg" className="w-full h-full object-cover max-h-75">
+                  <source src="/telegram_bot.mp4" type="video/mp4" />
                   Seu navegador não suporta vídeo.
                 </video>
               </div>
