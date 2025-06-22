@@ -268,6 +268,11 @@ export default function Home() {
               <img src="/tech/php.svg" alt="PHP" className="w-12 h-12 mb-2 group-hover:brightness-125 transition" />
               <span className="text-base font-medium text-neutral-200 group-hover:text-white">PHP</span>
             </a>
+            {/* Wordpress */}
+            <a href="https://wordpress.com" target="_blank" rel="noopener" className="group flex flex-col items-center p-5 bg-neutral-800 rounded-xl shadow border border-neutral-700 hover:scale-105 hover:bg-neutral-700 transition-all duration-200 w-32 h-32">
+              <img src="/tech/wordpress.svg" alt="PHP" className="w-12 h-12 mb-2 group-hover:brightness-125 transition" />
+              <span className="text-base font-medium text-neutral-200 group-hover:text-white">WordPress</span>
+            </a>
           </div>
         </section>
         <section id="contact" className="w-full max-w-2xl py-20 text-center">
