@@ -52,7 +52,7 @@ export default function Home() {
             </h2>
             <p className="text-neutral-400 max-w-xl text-base sm:text-lg leading-relaxed">
               Atualmente interessado por backend e inteligência artificial.
-              Tenho desenvolvido pequenos projetos para aprender mais sobre servidores, APIs, e redes neurais.
+              Tenho desenvolvido pequenos projetos para aprender mais sobre APIs e redes neurais.
             </p>
             <div className="flex gap-4 mt-2">
               <a
